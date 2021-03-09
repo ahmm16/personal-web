@@ -33,8 +33,8 @@ const Home = () => {
                 {/* Hero */}
                 <Hero setVisible={setVisible} />
                 {/* Experience */}
-                <Divider><Text>Experiencia</Text></Divider>
                 <Section id="experience">
+                    <Divider><Text>Experiencia</Text></Divider>
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>
@@ -44,8 +44,8 @@ const Home = () => {
                     </Content>
                 </Section>
                 {/* Skill Graph */}
-                <Divider><Text>Tecnologías usadas mensualmente</Text></Divider>
                 <Section id="skills">
+                    <Divider><Text>Tecnologías usadas mensualmente</Text></Divider>
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>
@@ -55,8 +55,8 @@ const Home = () => {
                     </Content>
                 </Section>
                 {/* Courses */}
-                <Divider><Text>Cursos realizados</Text></Divider>
                 <Section id="courses">
+                    <Divider><Text>Cursos realizados</Text></Divider>
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>
@@ -81,8 +81,8 @@ const Home = () => {
                             <Card data={data?.personalData} />
                         </Col></Row>
                 </Drawer>
-                <Divider><Text>Colaboraciones</Text></Divider>
                 <Section id="collabs">
+                    <Divider><Text>Colaboraciones</Text></Divider>
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>

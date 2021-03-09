@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import parse from 'html-react-parser'
-import { Collapse, Typography, Tag } from 'antd';
+import { Collapse, Typography, Tag, Switch } from 'antd';
 import { LinkOutlined, CaretRightOutlined } from '@ant-design/icons'
-const { Title, Text } = Typography;
+const { Title, Text, Paragraph } = Typography;
 const { Panel } = Collapse;
 
 const Tabs = ({ data }) => {
+    const [ellipsis, setEllipsis] = useState(false);
+    const ShowMore = () => <Switch
+        checked={ellipsis}
+        onChange={() => {
+            setEllipsis(!ellipsis);
+        }} />
+
     const genExtra = (url) => (
         <LinkOutlined
             onClick={event => {
@@ -25,21 +32,26 @@ const Tabs = ({ data }) => {
                 return (
                     <Panel header={`${item.companyName}`} key={index} extra={genExtra(item.url)}>
                         <Title level={5}>{item.roll} | {item.dateRange} </Title>
-                        <Text></Text>
-                        <Text><p>{item.dailyFunctions}</p></Text>
-                        <Text><p>{item.skills?.title}</p></Text>
-                        <Text><p>{item.skills?.bullets.map((item, index) => <Tag color="processing" key={index}>{item}</Tag>)}</p></Text>
+                        <Paragraph>{item.dailyFunctions}</Paragraph>
+                        <Paragraph>{item.skills?.title}</Paragraph>
+                        <Paragraph>{item.skills?.bullets.map((item, index) => <Tag color="processing" key={index}>{item}</Tag>)}</Paragraph>
                         {item?.projects && <Text>Proyectos: </Text>}
                         <ul>
                             {/*TODO: IMPROVE DOUBLE .MAP */}
                             {item?.projects?.map((item, index) => {
-                                return (<li key={index}>{item.name}: {parse(item.resume)}</li>)
+                                return (
+                                    <li key={index}>
+                                        <Paragraph ellipsis={!ellipsis ? { rows: 3, expandable: true, symbol: 'mostrar más' } : false}>
+                                            {item.name}:  {parse(item.resume)}
+                                        </Paragraph>
+                                    </li>
+                                )
                             })}
                         </ul>
                     </Panel>
                 )
             })}
-        </Collapse>
+        </Collapse >
     )
 }
 
