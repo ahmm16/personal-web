@@ -19,11 +19,14 @@ const Hero = ({ setVisible }) => {
             <div className="overlay">
                 <SquareAnimation />
                 <div className="content">
-                    <Title>Hola!</Title>
-                    <Text>Soy<span onClick={() => setVisible(true)} style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Alex Hernández</span>. Programador JavaScript por profesión y por pasión!</Text>
+                    <Title>{'{Hola Mundo}'}</Title>
+                    <Text>Soy<span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Alex Hernández</span>. Programador JavaScript por profesión y por pasión!</Text>
+                    <Text type="secondary" style={{
+                        textAlign: 'right', fontSize: 14, borderRadius: 2, marginTop: 40
+                    }}>Pulsa para ver detalles de contacto</Text>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

@@ -7,12 +7,6 @@ const { Panel } = Collapse;
 
 const Tabs = ({ data }) => {
     const [ellipsis, setEllipsis] = useState(false);
-    const ShowMore = () => <Switch
-        checked={ellipsis}
-        onChange={() => {
-            setEllipsis(!ellipsis);
-        }} />
-
     const genExtra = (url) => (
         <LinkOutlined
             onClick={event => {

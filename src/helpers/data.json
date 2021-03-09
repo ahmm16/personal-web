@@ -116,6 +116,9 @@
                 }
             ],
             "options": {
+                "colors": [
+                    "#00bbff"
+                ],
                 "legend": {
                     "show": false
                 },
@@ -276,7 +279,7 @@
                 "link": "https://remittven.co.uk/",
                 "resume": [
                     "Creación de la <a href='https://remittven.co.uk/' title='link-remittven' target='_blank'>página web</a> de la empresa RemittVen.",
-                    "Creación de la aplicación web de la empresa con la que los usuarios pueden consultar sus servicios, transacciones, beneficiarios y más detalles. <br />También pueden hacer transferencias dentro de la aplicación gracias a una integración con una plataforma de pago llamada Checkout."
+                    "Creación de la <a href='https://remittven.co.uk/AreaCliente' title='link-remittven/AreaCliente' target='_blank'> aplicación web </a> con la que los usuarios pueden consultar sus servicios, transacciones, beneficiarios y más detalles. <br />También pueden hacer transferencias dentro de la aplicación gracias a una integración con una plataforma de pago llamada Checkout."
                 ],
                 "avatar": "https://remittven.co.uk/images/favicon.png",
                 "description": "Remittven es una empresa británica. Cumple plenamente con todos los estándares exigidos por una capital financiera como Londres.",

@@ -15,7 +15,7 @@ import Card from '../components/Card';
 import Footer from '../components/Footer';
 
 const { Content } = Layout;
-const { Text } = Typography;
+const { Text, Paragraph } = Typography;
 
 const Home = () => {
     const [visible, setVisible] = useState(false)
@@ -34,7 +34,7 @@ const Home = () => {
                 <Hero setVisible={setVisible} />
                 {/* Experience */}
                 <Section id="experience">
-                    <Divider><Text>Experiencia</Text></Divider>
+                    <Divider><Text>Experiencia en empresas</Text></Divider>
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>
@@ -108,8 +108,12 @@ const Home = () => {
                                                 title={<a href={item.href}>{item.title}</a>}
                                                 description={parse(item.description)}
                                             />
-                                            {parse(item.resume[0])}
-                                            {parse(item.resume[1])}
+                                            <Paragraph>Objetivos: </Paragraph>
+                                            <ul>
+                                                {item.resume.map((resume, index) => {
+                                                    return <li key={index}>{parse(resume)}</li>
+                                                })}
+                                            </ul>
                                         </List.Item>
                                     )}
                                 />
