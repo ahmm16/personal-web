@@ -9,7 +9,24 @@ body {
           filter: invert(1) hue-rotate(180deg);
 }
 
+.layout.dark-mode .ant-drawer-content-wrapper {
+  -webkit-filter: invert(1) hue-rotate(180deg) !important;
+          filter: invert(1) hue-rotate(180deg) !important;
+}
+
 .layout.dark-mode img {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode {
+  -webkit-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode img {
   -webkit-filter: invert(1) hue-rotate(180deg);
           filter: invert(1) hue-rotate(180deg);
 }

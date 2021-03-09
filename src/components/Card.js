@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Card, Typography, Avatar, Switch } from 'antd';
-import { LinkedinOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
-import avatar from '../assets/images/alex.png'
+import { LinkedinOutlined, MailOutlined } from '@ant-design/icons';
+//import avatar from '../assets/images/alex.png'
 import avatar2 from '../assets/images/alex2.png'
 
 const { Text } = Typography;
@@ -17,9 +17,9 @@ const OwnCard = ({ data, darkMode, setDarkMode }) => {
             <br />
             <Text>{data.name}</Text><br />
             <Text type="secondary">{data.roll}</Text><br />
-            <Text><MailOutlined /> <a title="linkedin" href={'mailto:' + data.socialNetworks.email}>{data.email}</a></Text><br />
-            <Text><LinkedinOutlined /> <a title="linkedin" href={data.socialNetworks.url} target="_blank">{data.socialNetworks.name}</a></Text><br /><br />
-            <Text><Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)} /> Habilitar dark-mode</Text>
+            <Text><MailOutlined /> <a title="linkedin" href={'mailto:' + data.socialNetworks.email} rel="noreferrer">{data.email}</a></Text><br />
+            <Text><LinkedinOutlined /> <a title="linkedin" href={data.socialNetworks.url} target="_blank" rel="noreferrer">{data.socialNetworks.name}</a></Text><br /><br />
+            <Text><Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)} /> Dark mode</Text>
         </Card >
     )
 }

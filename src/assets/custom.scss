@@ -7,6 +7,17 @@ body{
 .layout.dark-mode{
   transition: color 300ms, background-color 300ms;
   filter: invert(1) hue-rotate(180deg);
+  
+  .ant-drawer-content-wrapper{
+    filter: invert(1) hue-rotate(180deg) !important;
+  }
+  img{
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+.ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode{
+  transition: color 300ms, background-color 300ms;
+  filter: invert(1) hue-rotate(180deg);
   img{
     filter: invert(1) hue-rotate(180deg);
   }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Row, Col, Divider, Typography, List, Avatar, Space, Drawer } from 'antd';
+import { Layout, Row, Col, Divider, Typography, List, Avatar, Drawer } from 'antd';
 import parse from 'html-react-parser'
 import { data } from '../helpers/data.json'
 import {
@@ -20,7 +20,7 @@ const { Text, Paragraph } = Typography;
 const Home = () => {
     const [darkMode, setDarkMode] = useState(false)
     const [visible, setVisible] = useState(false)
-    const [placement, setPlacement] = useState('left')
+    const [placement] = useState('left')
 
     const onClose = () => {
         setVisible(false)
@@ -31,6 +31,7 @@ const Home = () => {
             <ScrollingProvider>
                 {/* UserCard */}
                 <Drawer
+                    className={`${darkMode ? 'dark-mode' : ''}`}
                     placement={placement}
                     closable={false}
                     onClose={onClose}
