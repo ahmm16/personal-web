@@ -5,11 +5,9 @@ body{
   font-family: 'Lato', sans-serif;
 }
 .ant-layout-header{
-  //background-color: transparent;
   padding: 0px;
 } 
 .ant-menu{
-  //background-color: transparent;
   display: flex;
   justify-content: center;
   border-bottom: 0px;
@@ -72,9 +70,9 @@ body{
           height: 100%;
           background: $secondaryColor;
           //background: rgb(35,213,171);
-          background: -moz-linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
-          background: -webkit-linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
-          background: linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
+          //background: -moz-linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
+          //background: -webkit-linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
+          //background: linear-gradient(90deg, rgba(35,213,171,1) 0%, rgba(35,166,213,1) 50%, rgba(35,213,171,1) 100%);
           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#23d5ab",endColorstr="#23d5ab",GradientType=1);
 
           z-index: 3;
@@ -142,7 +140,8 @@ body{
             
             animation-duration: 22s;
             
-            background-color: fade(white, 25%);
+            background-color: #fff;
+            opacity: .4;
           }
           &:nth-child(5){
             left: 70%;
@@ -153,7 +152,8 @@ body{
             height: 120px;
             
             animation-delay: 3s;
-            background-color: fade(white, 20%);
+            background-color: #fff;
+            opacity: .4;
           }
           &:nth-child(7){
             left: 32%;
@@ -177,7 +177,8 @@ body{
             
             animation-delay: 2s;
             animation-duration: 40s;
-            background-color: fade(white, 30%);
+            background-color: #fff;
+            opacity: .4;
           }
           &:nth-child(10){
             left: 90%;

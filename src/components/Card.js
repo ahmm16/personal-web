@@ -17,8 +17,8 @@ const OwnCard = ({ data }) => {
             <br />
             <Text>{data.name}</Text><br />
             <Text type="secondary">{data.roll}</Text><br />
-            <Text><MailOutlined /> {data.email}</Text><br />
-            <Text><LinkedinOutlined /><a title="linkedin" href={data.socialNetworks.url} target="_blank">{data.socialNetworks.name}</a></Text>
+            <Text><MailOutlined /> <a title="linkedin" href={'mailto:' + data.socialNetworks.email}>{data.email}</a></Text><br />
+            <Text><LinkedinOutlined /> <a title="linkedin" href={data.socialNetworks.url} target="_blank">{data.socialNetworks.name}</a></Text>
         </Card >
     )
 }

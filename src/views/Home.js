@@ -79,7 +79,8 @@ const Home = () => {
                     <Row justify="space-around">
                         <Col xs={24}>
                             <Card data={data?.personalData} />
-                        </Col></Row>
+                        </Col>
+                    </Row>
                 </Drawer>
                 <Section id="collabs">
                     <Divider><Text>Colaboraciones</Text></Divider>
