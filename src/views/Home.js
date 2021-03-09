@@ -1,6 +1,5 @@
 import React from 'react';
 import { Layout, Row, Col, Divider, Typography, List, Avatar, Space } from 'antd';
-import { MessageOutlined, LikeOutlined, StarOutlined } from '@ant-design/icons'
 import parse from 'html-react-parser'
 import { data } from '../helpers/data.json'
 import {
@@ -59,7 +58,11 @@ const Home = () => {
                     <Content>
                         <Row justify="space-around">
                             <Col xs={24} sm={18}>
-                                <TimeLine data={data?.courses} />
+                                <List
+                                    style={{ backgroundColor: '#fff' }}
+                                    bordered>
+                                    <TimeLine data={data?.courses} />
+                                </List>
                             </Col>
                         </Row>
                     </Content>

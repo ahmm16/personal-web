@@ -8,7 +8,7 @@ import {
 const { Header } = Layout;
 
 const AffixMenu = () => {
-    const [top, setTop] = useState(0);
+    const [top] = useState(0);
     const [current, setCurrent] = useState('')
 
     const experienceSection = useScrollSection('experience');
