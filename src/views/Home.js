@@ -1,5 +1,5 @@
-import React from 'react';
-import { Layout, Row, Col, Divider, Typography, List, Avatar, Space } from 'antd';
+import React, { useState } from 'react';
+import { Layout, Row, Col, Divider, Typography, List, Avatar, Space, Drawer } from 'antd';
 import parse from 'html-react-parser'
 import { data } from '../helpers/data.json'
 import {
@@ -11,25 +11,27 @@ import Hero from '../components/Hero';
 import Tabs from '../components/Tabs';
 import Graph from '../components/Graph';
 import TimeLine from '../components/TimeLine';
+import Card from '../components/Card';
 import Footer from '../components/Footer';
 
 const { Content } = Layout;
 const { Text } = Typography;
 
 const Home = () => {
-    const IconText = ({ icon, text }) => (
-        <Space>
-            {React.createElement(icon)}
-            {text}
-        </Space>
-    );
+    const [visible, setVisible] = useState(false)
+    const [placement, setPlacement] = useState('left')
+
+    const onClose = () => {
+        setVisible(false)
+    };
+
     return (
         <Layout className="layout">
             <ScrollingProvider>
                 {/* Header */}
                 <AffixMenu />
                 {/* Hero */}
-                <Hero />
+                <Hero setVisible={setVisible} />
                 {/* Experience */}
                 <Divider><Text>Experiencia</Text></Divider>
                 <Section id="experience">
@@ -67,6 +69,18 @@ const Home = () => {
                         </Row>
                     </Content>
                 </Section>
+                <Drawer
+                    placement={placement}
+                    closable={false}
+                    onClose={onClose}
+                    visible={visible}
+                    key={placement}
+                >
+                    <Row justify="space-around">
+                        <Col xs={24}>
+                            <Card data={data?.personalData} />
+                        </Col></Row>
+                </Drawer>
                 <Divider><Text>Colaboraciones</Text></Divider>
                 <Section id="collabs">
                     <Content>

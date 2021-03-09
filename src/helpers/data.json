@@ -5,13 +5,10 @@
             "email": "16ahmm@gmail.com",
             "name": "Alex Hernández",
             "roll": "Desarrollador Web",
-            "phrase": "bla bla bla ... bla bla bla",
-            "socialNetworks": [
-                {
-                    "name": "LinkedIn",
-                    "url": ""
-                }
-            ]
+            "socialNetworks": {
+                "name": "LinkedIn",
+                "url": "http://linkedin.com/in/alex-hernández-m"
+            }
         },
         "courses": [
             {

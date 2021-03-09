@@ -13,14 +13,14 @@ const SquareAnimation = () => {
     )
 }
 
-const Hero = () => {
+const Hero = ({ setVisible }) => {
     return (
-        <section className="hero">
+        <section className="hero" style={{ cursor: 'pointer' }} onClick={() => setVisible(true)}>
             <div className="overlay">
                 <SquareAnimation />
                 <div className="content">
                     <Title>Hola!</Title>
-                    <Text>Soy Alex Hernández. Programador JavaScript por profesión y por pasión!</Text>
+                    <Text>Soy<span onClick={() => setVisible(true)} style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Alex Hernández</span>. Programador JavaScript por profesión y por pasión!</Text>
                 </div>
             </div>
         </section>
