@@ -2,6 +2,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.layout.dark-mode {
+  -webkit-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
+.layout.dark-mode img {
+  -webkit-filter: invert(1) hue-rotate(180deg);
+          filter: invert(1) hue-rotate(180deg);
+}
+
 .ant-layout-header {
   padding: 0px;
 }

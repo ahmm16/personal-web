@@ -18,6 +18,7 @@ const { Content } = Layout;
 const { Text, Paragraph } = Typography;
 
 const Home = () => {
+    const [darkMode, setDarkMode] = useState(false)
     const [visible, setVisible] = useState(false)
     const [placement, setPlacement] = useState('left')
 
@@ -26,8 +27,22 @@ const Home = () => {
     };
 
     return (
-        <Layout className="layout">
+        <Layout className={`layout ${darkMode ? 'dark-mode' : ''}`}>
             <ScrollingProvider>
+                {/* UserCard */}
+                <Drawer
+                    placement={placement}
+                    closable={false}
+                    onClose={onClose}
+                    visible={visible}
+                    key={placement}
+                >
+                    <Row justify="space-around">
+                        <Col xs={24}>
+                            <Card data={data?.personalData} darkMode={darkMode} setDarkMode={setDarkMode} />
+                        </Col>
+                    </Row>
+                </Drawer>
                 {/* Header */}
                 <AffixMenu />
                 {/* Hero */}
@@ -69,19 +84,7 @@ const Home = () => {
                         </Row>
                     </Content>
                 </Section>
-                <Drawer
-                    placement={placement}
-                    closable={false}
-                    onClose={onClose}
-                    visible={visible}
-                    key={placement}
-                >
-                    <Row justify="space-around">
-                        <Col xs={24}>
-                            <Card data={data?.personalData} />
-                        </Col>
-                    </Row>
-                </Drawer>
+
                 <Section id="collabs">
                     <Divider><Text>Colaboraciones</Text></Divider>
                     <Content>
