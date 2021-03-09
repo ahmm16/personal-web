@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import parse from 'html-react-parser'
-import { Collapse, Typography, Tag, Switch } from 'antd';
+import { Collapse, Typography, Tag } from 'antd';
 import { LinkOutlined, CaretRightOutlined } from '@ant-design/icons'
 const { Title, Text, Paragraph } = Typography;
 const { Panel } = Collapse;
 
 const Tabs = ({ data }) => {
-    const [ellipsis, setEllipsis] = useState(false);
+    const [ellipsis] = useState(false);
     const genExtra = (url) => (
         <LinkOutlined
-            onClick={event => {
+            onClick={() => {
                 window.open(url, '_blank');
             }}
         />
