@@ -6,9 +6,8 @@ import Scroll from "../views/Scroll";
 const Routes = () => {
     return (
         <Switch>
-            {/* <Redirect exact from="/" to="/login" /> */}
             <Route component={Home} exact path="/" />
-            <Route component={Scroll} exact path="/Scroll" />
+            <Redirect to="/" />
         </Switch>
     );
 };
