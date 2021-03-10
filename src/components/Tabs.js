@@ -18,7 +18,7 @@ const Tabs = ({ data }) => {
         console.log("click")
     }
     return (
-        <Collapse /*defaultActiveKey={['1']}*/ onChange={callback}
+        <Collapse defaultActiveKey={['0']} onChange={callback}
             bordered={false}
             expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
         >
