@@ -85,7 +85,7 @@ const Home = () => {
                         </Row>
                     </Content>
                 </Section>
-
+                {/* Collab */}
                 <Section id="collabs">
                     <Divider><Text>Colaboraciones</Text></Divider>
                     <Content>
