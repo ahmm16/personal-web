@@ -159,17 +159,16 @@
                     }
                 ],
                 "skills": {
-                    "title": "Trabajé diariamente con las siguientes tecnologías:",
+                    "title": "Trabajo diariamente con las siguientes tecnologías:",
                     "bullets": [
                         "JavaScript",
                         "React",
                         "Redux",
-                        "Node",
-                        "Express",
                         "HTML5",
                         "CSS3",
                         "SASS",
-                        "MongoDB",
+                        "Node",
+                        "Express",
                         "Cypress",
                         "Git",
                         "GitLab",
@@ -233,11 +232,11 @@
                     "bullets": [
                         "JavaScript",
                         "JQuery",
-                        "PHP7",
-                        "Git",
                         "HTML5",
                         "CSS3",
                         "SASS",
+                        "PHP7",
+                        "Git",
                         "Adobe Photoshop",
                         "Adobe Illustrator"
                     ]
@@ -248,15 +247,15 @@
                 "url": "#",
                 "roll": "Diseñador y Desarrollador Web",
                 "dateRange": "Jun 2016 - Apr 2017.",
-                "dailyFunctions": "Cumplí las funciones de diseñar y mantener páginas Web en WordPress. A parte me dedicaba la creeación de diseños aprendía mis primeros conceptos sobre Adobe Photoshop y Adobe Illustrator",
+                "dailyFunctions": "Cumplí las funciones de diseñar y mantener páginas Web en WordPress. A parte, colabaraba en la creeación de diseños mientras aprendía mis primeros conceptos sobre Adobe Photoshop y Adobe Illustrator",
                 "skills": {
                     "title": "Trabajé diariamente con las siguientes tecnologías:",
                     "bullets": [
                         "WordPress",
-                        "Php",
                         "JavaScript",
                         "HTML5",
                         "CSS3",
+                        "Php",
                         "Adobe Photoshop",
                         "Adobe Illustrator"
                     ]
