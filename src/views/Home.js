@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Row, Col, Divider, Typography, List, Avatar, Drawer } from 'antd';
+import { Layout, Row, Col, Divider, Typography, List, Avatar, Drawer, Tag } from 'antd';
 import parse from 'html-react-parser'
 import { data } from '../helpers/data.json'
 import {
@@ -119,6 +119,9 @@ const Home = () => {
                                                     return <li key={index}>{parse(resume)}</li>
                                                 })}
                                             </ul>
+                                            <br />
+                                            <Paragraph>Tecnologías utilizadas: </Paragraph>
+                                            <Paragraph>{item.skills?.map((item, index) => <Tag color="processing" key={index}>{item}</Tag>)}</Paragraph>
                                         </List.Item>
                                     )}
                                 />

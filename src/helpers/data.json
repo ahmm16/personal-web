@@ -286,6 +286,99 @@
                 "reviews": [
                     "Seguro y confiable. Lo recomiendo sin reparos",
                     "Nunca había utilizado un servicio así. Super fácil. Toda la información está en la página web, te registras, registras la cuenta venezolana y luego es super sencillo el procedimiento. En horas tenía el dinero en S! Super recomendado!"
+                ],
+                "skills": [
+                    "JavaScript",
+                    "React",
+                    "Redux",
+                    "html5",
+                    "css3"
+                ]
+            }
+        ],
+        "blog": [
+            {
+                "title": "Conoce cómo estructuro mis proyectos FrontEnd.",
+                "date": "09/03/2021",
+                "content": [
+                    {
+                        "paragraph": "En el siguienete apartado vamos a tratar como yo organizo mis proyectos FrontEnd"
+                    },
+                    {
+                        "paragraph": "En este caso vamos a analizar en concreto un proyecto realizado con React"
+                    },
+                    {
+                        "paragraph": ""
+                    }
+                ],
+                "tree": [
+                    {
+                        "title": "example-project",
+                        "key": "0-0",
+                        "children": [
+                            {
+                                "title": "public",
+                                "key": "0-0-0",
+                                "children": [
+                                    {
+                                        "title": "index.html",
+                                        "key": "0-0-0-0"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "src",
+                                "key": "0-0-1",
+                                "children": [
+                                    {
+                                        "title": "components",
+                                        "key": "0-0-1-0",
+                                        "children": [
+                                            {
+                                                "title": "Header | Footer | Layout ...",
+                                                "key": "0-0-1-0-0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "services",
+                                        "key": "0-0-1-1",
+                                        "children": [
+                                            {
+                                                "title": "Service 1 | Service 2 | Service 3 ...",
+                                                "key": "0-0-1-1-0"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "assets",
+                                        "key": "0-0-1-2",
+                                        "children": [
+                                            {
+                                                "title": "styles.scss | images ...",
+                                                "key": "0-0-1-2-0"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Conoce cómo estructuro mis proyectos BackEnd.",
+                "date": "09/03/2021",
+                "content": [
+                    {
+                        "paragraph": ""
+                    },
+                    {
+                        "paragraph": ""
+                    },
+                    {
+                        "paragraph": ""
+                    }
                 ]
             }
         ]
