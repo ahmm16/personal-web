@@ -15,7 +15,7 @@ import Card from '../components/Card';
 import Footer from '../components/Footer';
 
 const { Content } = Layout;
-const { Text, Paragraph } = Typography;
+const { Title, Text, Paragraph } = Typography;
 
 const Home = () => {
     const [darkMode, setDarkMode] = useState(false)
