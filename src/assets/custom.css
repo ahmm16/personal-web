@@ -12,6 +12,21 @@ body {
           filter: invert(1) hue-rotate(180deg);
 }
 
+.layout.primary-bg {
+  background-color: #23a6d5;
+  height: 100%;
+}
+
+.layout .login {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 50%;
+  margin: 40px auto;
+  padding: 60px 0px;
+  text-align: center;
+}
+
 .ant-layout-header {
   padding: 0px;
 }
@@ -20,9 +35,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   border-bottom: 0px;
 }
 
@@ -226,6 +241,32 @@ body {
           animation-delay: 11s;
 }
 
+.ant-timeline-item-tail {
+  border-left: 2px solid #23d5ab;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.ant-drawer-body {
+  padding: 0px;
+}
+
+.ant-timeline-item-last {
+  padding-bottom: 0px;
+}
+
+.ant-result {
+  padding: 0px;
+}
+
+.ant-layout-footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 12px 50px 24px 50px;
+}
+
 @-webkit-keyframes square {
   0% {
     -webkit-transform: translateY(0);
@@ -268,27 +309,5 @@ body {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
   }
-}
-
-.ant-timeline-item-tail {
-  border-left: 2px solid #23d5ab;
-}
-
-.apexcharts-menu-icon {
-  display: none;
-}
-
-.ant-drawer-body {
-  padding: 0px;
-}
-
-.ant-layout-footer {
-  text-align: center;
-  background-color: #fff;
-  padding: 12px 50px 24px 50px;
-}
-
-.ant-timeline-item-last {
-  padding-bottom: 0px;
 }
 /*# sourceMappingURL=custom.css.map */

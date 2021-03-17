@@ -1,5 +1,6 @@
 $primaryColor: #23a6d5;
 $secondaryColor: #23d5ab;
+$white: #fff;
 
 body{
   font-family: 'Lato', sans-serif;
@@ -10,12 +11,28 @@ body{
     filter: invert(1) hue-rotate(180deg);
   }
 }
+.layout {
+  &.primary-bg{
+    background-color: $primaryColor;
+  height: 100%;
+  }
+  
+  .login{
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 50%;
+    margin: 40px auto;
+    padding: 60px 0px;
+    text-align: center;
+  }
+}
 .ant-layout-header{
   padding: 0px;
 } 
 .ant-menu{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   border-bottom: 0px;
 }
 .ant-menu-item.ant-menu-item-selected, 
@@ -102,7 +119,6 @@ body{
   }
   
 }
-
 .bg-bubbles{
   position: absolute;
   top: 0;
@@ -199,23 +215,6 @@ body{
     }
 }
 
-@-webkit-keyframes square {
-  0%   { transform: translateY(0); }
-  100% { transform: translateY(-700px) rotate(600deg); }
-}
-@keyframes square {
-  0%   { transform: translateY(0); }
-  100% { transform: translateY(-700px) rotate(600deg); }
-}
-
-@keyframes reveal {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
 .ant-timeline-item-tail{
   border-left: 2px solid $secondaryColor;
 }
@@ -225,11 +224,32 @@ body{
 .ant-drawer-body{
   padding: 0px;
 }
+.ant-timeline-item-last{
+  padding-bottom: 0px;
+}
+.ant-result{
+  padding: 0px;
+}
 .ant-layout-footer {
   text-align: center;
   background-color: #fff;
   padding: 12px 50px 24px 50px;
 }
-.ant-timeline-item-last{
-  padding-bottom: 0px;
+
+// keyframes
+@-webkit-keyframes square {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-700px) rotate(600deg); }
+}
+@keyframes square {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-700px) rotate(600deg); }
+}
+@keyframes reveal {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }

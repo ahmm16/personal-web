@@ -4,20 +4,12 @@ import parse from 'html-react-parser'
 import { data } from '../helpers/data.json'
 import Footer from '../components/Footer';
 import AffixMenu from '../components/AffixMenu';
+import SquareAnimation from '../components/Animations/SquareAnimation';
 import { DownOutlined } from '@ant-design/icons';
 
 const { Content } = Layout;
 const { Title, Text, Paragraph } = Typography;
 
-const SquareAnimation = () => {
-    const squares = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    return (<ul className="bg-bubbles">
-        {squares.map((item, index) => {
-            return (<li key={index}></li>)
-        })}
-    </ul>
-    )
-}
 const Blog = () => {
     const [ellipsis] = useState(false);
     const [darkMode] = useState(false)
