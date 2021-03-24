@@ -13,26 +13,26 @@
         "courses": [
             {
                 "show": true,
-                "date": 2018,
+                "date": 2017,
                 "title": "Curso profesional de Git y GitHub."
             },
             {
                 "show": false,
-                "date": 2018,
+                "date": 2017,
                 "title": "Curso básico de Vue.js."
             },
             {
                 "show": false,
-                "date": 2018,
+                "date": 2017,
                 "title": "Curso básico de React.js."
             },
             {
                 "show": true,
-                "date": 2019,
+                "date": 2018,
                 "title": "Curso profesional de React.js."
             },
             {
-                "show": false,
+                "show": true,
                 "date": 2019,
                 "title": "Curso básico de Node.js."
             },
