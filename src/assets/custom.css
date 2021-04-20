@@ -1,13 +1,15 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.layout.dark-mode, .ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode {
+.layout.dark-mode,
+.ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode {
   -webkit-filter: invert(1) hue-rotate(180deg);
           filter: invert(1) hue-rotate(180deg);
 }
 
-.layout.dark-mode img, .ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode img {
+.layout.dark-mode img,
+.ant-drawer.ant-drawer-left.ant-drawer-open.dark-mode img {
   -webkit-filter: invert(1) hue-rotate(180deg);
           filter: invert(1) hue-rotate(180deg);
 }
@@ -89,7 +91,7 @@ body {
 }
 
 .hero .overlay:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -98,15 +100,15 @@ body {
   background: #23d5ab;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#23d5ab",endColorstr="#23d5ab",GradientType=1);
   z-index: 3;
-  animation: reveal .5s reverse forwards;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-transform-origin: '';
-          transform-origin: '';
+  animation: reveal 0.5s reverse forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-transform-origin: "";
+          transform-origin: "";
 }
 
 .hero .overlay:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -115,8 +117,8 @@ body {
   background: #23a6d5;
   z-index: 2;
   animation: reveal 1.4s reverse forwards;
-  -webkit-animation-delay: .7s;
-          animation-delay: .7s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
   -webkit-transform-origin: left;
           transform-origin: left;
 }
@@ -171,7 +173,7 @@ body {
   -webkit-animation-duration: 22s;
           animation-duration: 22s;
   background-color: #fff;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .bg-bubbles li:nth-child(5) {
@@ -185,7 +187,7 @@ body {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   background-color: #fff;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .bg-bubbles li:nth-child(7) {
@@ -215,7 +217,7 @@ body {
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
   background-color: #fff;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .bg-bubbles li:nth-child(10) {
@@ -290,5 +292,12 @@ body {
 
 .ant-timeline-item-last {
   padding-bottom: 0px;
+}
+
+.hero .overlay .content .ant-typography.hero-details {
+  text-align: right;
+  font-size: 16px;
+  border-radius: 2px;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=custom.css.map */
