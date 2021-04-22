@@ -9,6 +9,8 @@ import {
 } from "@ant-design/icons";
 import { useScrollSections } from "react-scroll-section";
 import { useTranslation } from "react-i18next";
+import flagEn from "../assets/images/flags/en.png"
+import flagEs from "../assets/images/flags/es.png"
 
 const { Header } = Layout;
 
@@ -63,7 +65,7 @@ const AffixMenu = ({ mode }) => {
           {i18n.language === "es" && (
             <Menu.Item>
               <img
-                src="https://www.countryflags.io/gb/flat/24.png"
+                src={flagEn}
                 alt=""
                 value="United Kingdom"
                 onClick={() => i18n.changeLanguage("en")}
@@ -73,7 +75,7 @@ const AffixMenu = ({ mode }) => {
           {i18n.language === "en" && (
             <Menu.Item>
               <img
-                src="https://www.countryflags.io/es/flat/24.png"
+                src={flagEs}
                 alt=""
                 value="Spain"
                 onClick={() => i18n.changeLanguage("es")}
