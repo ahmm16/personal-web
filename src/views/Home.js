@@ -11,7 +11,7 @@ import {
   Tag,
 } from "antd";
 import parse from "html-react-parser";
-import { data } from "../helpers/data.json";
+import { data } from "../data/data.json";
 import { ScrollingProvider, Section } from "react-scroll-section";
 import AffixMenu from "../components/AffixMenu";
 import Hero from "../components/Hero";

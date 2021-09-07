@@ -1,0 +1,517 @@
+{
+  "data": {
+    "personalData": {
+      "location": "Alcobendas, 28100",
+      "email": "16ahmm@gmail.com",
+      "name": "Alex Hernández",
+      "roll": "personal_section_text_roll",
+      "socialNetworks": {
+        "name": "LinkedIn",
+        "url": "http://linkedin.com/in/alex-hernández-m"
+      },
+      "darkMode": "personal_section_text_dark_mode"
+    },
+    "courses": [
+      {
+        "show": true,
+        "date": 2017,
+        "title": "courses_section_course_git_profesional"
+      },
+      {
+        "show": false,
+        "date": 2017,
+        "title": "courses_section_course_vue_basic"
+      },
+      {
+        "show": false,
+        "date": 2017,
+        "title": "courses_section_course_react_basic"
+      },
+      {
+        "show": true,
+        "date": 2018,
+        "title": "courses_section_course_react_profesional"
+      },
+      {
+        "show": true,
+        "date": 2019,
+        "title": "courses_section_course_node_basic"
+      },
+      {
+        "show": true,
+        "date": 2020,
+        "title": "courses_section_course_react_native_basic"
+      },
+      {
+        "show": false,
+        "date": 2020,
+        "title": "courses_section_course_cypress_basic"
+      },
+      {
+        "show": true,
+        "date": 2021,
+        "title": "courses_section_course_devops_basic"
+      }
+    ],
+    "skills": {
+      "series": [
+        {
+          "data": [
+            {
+              "x": "React",
+              "y": 100
+            },
+            {
+              "x": "JavaScript",
+              "y": 100
+            },
+            {
+              "x": "HTML5",
+              "y": 100
+            },
+            {
+              "x": "CSS3/SASS",
+              "y": 100
+            },
+            {
+              "x": "Gitlab",
+              "y": 100
+            },
+            {
+              "x": "Node",
+              "y": 70
+            },
+            {
+              "x": "Vue",
+              "y": 50
+            },
+            {
+              "x": "React Native",
+              "y": 50
+            },
+            {
+              "x": "Express",
+              "y": 70
+            },
+            {
+              "x": "MongoDB",
+              "y": 60
+            },
+            {
+              "x": "Moongose",
+              "y": 60
+            },
+            {
+              "x": "Redux",
+              "y": 50
+            },
+            {
+              "x": "GraphQL",
+              "y": 15
+            },
+            {
+              "x": "MySQL",
+              "y": 15
+            }
+          ]
+        }
+      ],
+      "options": {
+        "colors": ["#00bbff"],
+        "legend": {
+          "show": false
+        },
+        "chart": {
+          "height": 370,
+          "type": "treemap"
+        }
+      }
+    },
+    "studies": [
+      {
+        "date": "2013 - 2015",
+        "name": "U.P.M.",
+        "title": "Ing. Alimentaria. Madrid, España.",
+        "location": "Madrid, España."
+      },
+      {
+        "date": "2015 - 2017",
+        "name": "I.E.S El Lago.",
+        "title": "Grado Superior D.A.W.M.I.",
+        "location": "Madrid, España."
+      }
+    ],
+    "experience": [
+      {
+        "companyName": "experience_section_bluetc_company_name",
+        "url": "https://www.bluetc.es/en/",
+        "roll": "experience_section_bluetc_roll",
+        "date": "experience_section_bluetc_date",
+        "projects": [
+          {
+            "name": "experience_section_bluetc_projects_0_name",
+            "resume": "experience_section_bluetc_projects_0_resume"
+          }
+        ],
+        "skills": {
+          "title": "experience_section_bluetc_skills_title",
+          "bullets": [
+            "JavaScript",
+            "React",
+            "Redux",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "Node",
+            "Express",
+            "Git",
+            "Gerrit",
+            "Jira"
+          ]
+        }
+      },
+      {
+        "companyName": "experience_section_sngular_company_name",
+        "url": "https://www.sngular.com/es/",
+        "roll": "experience_section_sngular_roll",
+        "date": "experience_section_sngular_date",
+        "projects": [
+          {
+            "name": "experience_section_sngular_projects_0_name",
+            "resume": "experience_section_sngular_projects_0_resume"
+          },
+          {
+            "name": "experience_section_sngular_projects_1_name",
+            "resume": "experience_section_sngular_projects_1_resume"
+          }
+        ],
+        "skills": {
+          "title": "experience_section_sngular_skills_title",
+          "bullets": [
+            "JavaScript",
+            "React",
+            "Redux",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "Node",
+            "Express",
+            "Cypress",
+            "Git",
+            "GitLab",
+            "Rollbar",
+            "Amplitude"
+          ]
+        }
+      },
+      {
+        "companyName": "experience_section_digi_company_name",
+        "url": "https://www.digimobil.es/",
+        "roll": "experience_section_digi_roll",
+        "date": "experience_section_digi_date",
+        "projects": [
+          {
+            "name": "experience_section_digi_projects_0_name",
+            "resume": "experience_section_digi_projects_0_resume"
+          }
+        ],
+        "skills": {
+          "title": "experience_section_digi_skills_title",
+          "bullets": [
+            "JavaScript",
+            "React",
+            "Redux",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "PHP(Zend framework 3)",
+            "GraphQL",
+            "MySQL",
+            "MongoDB",
+            "Cypress",
+            "Git",
+            "GitLab"
+          ]
+        }
+      },
+      {
+        "companyName": "experience_section_bookassist_company_name",
+        "url": "https://bookassist.org/es",
+        "roll": "experience_section_bookassist_roll",
+        "date": "experience_section_bookassist_date",
+        "dailyFunctions": "experience_section_bookassist_daily_functions",
+        "projects": [
+          {
+            "name": "experience_section_bookassist_projects_0_name",
+            "resume": "experience_section_bookassist_projects_0_resume"
+          },
+          {
+            "name": "experience_section_bookassist_projects_1_name",
+            "resume": "experience_section_bookassist_projects_1_resume"
+          },
+          {
+            "name": "experience_section_bookassist_projects_2_name",
+            "resume": "experience_section_bookassist_projects_2_resume"
+          }
+        ],
+        "skills": {
+          "title": "experience_section_bookassist_skills_title",
+          "bullets": [
+            "JavaScript",
+            "JQuery",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "PHP7",
+            "Git",
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+          ]
+        }
+      },
+      {
+        "companyName": "experience_section_tandem_company_name",
+        "url": false,
+        "roll": "experience_section_tandem_roll",
+        "date": "experience_section_tandem_date",
+        "dailyFunctions": "experience_section_tandem_daily_functions",
+        "projects": [
+          {
+            "name": "experience_section_tandem_projects_0_name",
+            "resume": "experience_section_tandem_projects_0_resume"
+          },
+          {
+            "name": "experience_section_tandem_projects_1_name",
+            "resume": "experience_section_tandem_projects_1_resume"
+          }
+        ],
+        "skills": {
+          "title": "experience_section_tandem_skills_title",
+          "bullets": [
+            "WordPress",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Php",
+            "Adobe Photoshop",
+            "Adobe Illustrator"
+          ]
+        }
+      }
+    ],
+    "collaboration": [
+      {
+        "name": "RemittVen",
+        "link": "https://remittven.co.uk/",
+        "resume": [
+          "collabs_section_remittven_resume_0",
+          "collabs_section_remittven_resume_1"
+        ],
+        "avatar": "https://remittven.co.uk/images/favicon.png",
+        "description": "collabs_section_remittven_description",
+        "reviews": [
+          "collabs_section_remittven_review_0",
+          "collabs_section_remittven_review_1"
+        ],
+        "skills": [
+          "JavaScript",
+          "React",
+          "Redux",
+          "HTML5",
+          "CSS3",
+          "SASS",
+          "Cypress"
+        ]
+      }
+    ],
+    "blog": [
+      {
+        "title": "\"Conoce cómo\" estructuro mis proyectos FrontEnd.",
+        "date": "09/03/2021",
+        "content": [
+          {
+            "paragraph": "En el siguienete apartado vamos a tratar como organizo mis proyectos FrontEnd. En este caso vamos a analizar en concreto un proyecto realizado con React utilizando la api de createContext()."
+          },
+          {
+            "paragraph": "Partimos de la estructura básica que <code>npx create-react-app</code> nos provee (mirar el árbol de la derecha). En la carpeta src/ encontraremos el grosor de nuestra aplicación."
+          },
+          {
+            "paragraph": "Empezaremos con la carpeta src/assets/. En esta situaremos todos nuestros recursos a utilizar en la aplicación, tales como: imágenes, una carpeta para las hojas de estilo, fuentes y demás recursos que podamos necesitar. "
+          },
+          {
+            "paragraph": "Continuamos con la carpeta src/components/ en la que situaremos todos nuestros componentes React. Explicar {Layout, Commons, Forms.}"
+          },
+          {
+            "paragraph": "Dependiendo del tamaño de datos que vamos manipular dentro de nuestra App, crearemos una carpeta llamada context, en la que si el volumen de datos que vamos a utilizar no es excesivamente grande, crearemos nuestros contextos mediante React.createContext(). Si el volumen de datos es excesivamente grande haremos uso de Redux para manipular los datos y el estado de nustra aplicación. Esta implementación con Redux la veremos en otro <b>\"Conoce cómo\"</b>."
+          },
+          {
+            "paragraph": "En la carpeta src/services/ incluiremos diferentes servicios que consumimos en nuestra aplicación. Por ejemplo, la api que vayamos a consumir para nuestra Aplicación, en una de mis últimas colaboraciones situé en esta carpeta una integración con Rollbar que es un sistema que ayudar al seguimiento de errores de la aplicación. A parte, cuando he trabajado con integraciones como Amplitude o Google Analytics, también las he situado en esta carpeta."
+          }
+        ],
+        "tree": [
+          {
+            "title": "example-project",
+            "key": "0-0",
+            "children": [
+              {
+                "title": "public",
+                "key": "0-0-0",
+                "children": [
+                  {
+                    "title": "index.html",
+                    "key": "0-0-0-0"
+                  }
+                ]
+              },
+              {
+                "title": "src",
+                "key": "0-0-1",
+                "children": [
+                  {
+                    "title": "assets",
+                    "key": "0-0-1-0",
+                    "children": [
+                      {
+                        "title": "images",
+                        "key": "0-0-1-0-0"
+                      },
+                      {
+                        "title": "fonts",
+                        "key": "0-0-1-0-1"
+                      },
+                      {
+                        "title": "scss",
+                        "key": "0-0-1-0-2"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "components",
+                    "key": "0-0-1-1",
+                    "children": [
+                      {
+                        "title": "Layout",
+                        "key": "0-0-1-1-0",
+                        "children": [
+                          {
+                            "title": "Header, Menu, Footer...",
+                            "key": "0-0-1-1-0-0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Commons",
+                        "key": "0-0-1-1-1",
+                        "children": [
+                          {
+                            "title": "Modal, Tabs, Card...",
+                            "key": "0-0-1-1-1-0"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Forms",
+                        "key": "0-0-1-1-2",
+                        "children": [
+                          {
+                            "title": "Contact, Login, Register...",
+                            "key": "0-0-1-1-2-0"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "context",
+                    "key": "0-0-1-2",
+                    "children": [
+                      {
+                        "title": "{entity}.context.js",
+                        "key": "0-0-1-2-0"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "services",
+                    "key": "0-0-1-3",
+                    "children": [
+                      {
+                        "title": "api",
+                        "key": "0-0-1-3-0"
+                      },
+                      {
+                        "title": "rollbar",
+                        "key": "0-0-1-3-1"
+                      },
+                      {
+                        "title": "events",
+                        "key": "0-0-1-3-2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": ".env",
+                "key": "0-0-2"
+              },
+              {
+                "title": "package-lock.json",
+                "key": "0-0-3"
+              },
+              {
+                "title": "package.json",
+                "key": "0-0-4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "\"Conoce cómo\" trabajo con SASS.",
+        "date": "09/03/2021",
+        "content": [
+          {
+            "paragraph": "Próximamente..."
+          },
+          {
+            "paragraph": ""
+          },
+          {
+            "paragraph": ""
+          }
+        ]
+      },
+      {
+        "title": "\"Conoce cómo\" trabajo con Redux.",
+        "date": "09/03/2021",
+        "content": [
+          {
+            "paragraph": "Próximamente..."
+          },
+          {
+            "paragraph": ""
+          },
+          {
+            "paragraph": ""
+          }
+        ]
+      },
+      {
+        "title": "\"Conoce cómo\" estructuro mis proyectos BackEnd.",
+        "date": "09/03/2021",
+        "content": [
+          {
+            "paragraph": "Próximamente..."
+          },
+          {
+            "paragraph": ""
+          },
+          {
+            "paragraph": ""
+          }
+        ]
+      }
+    ]
+  }
+}

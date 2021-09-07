@@ -12,9 +12,17 @@ export const en_translations = {
   experience_section_text_title: "Job experience",
   experience_section_text_show_more: "show more",
   experience_section_text_projects: "Projects",
-  experience_section_sngular_company_name: "Sngular (now)",
+  experience_section_bluetc_company_name: "Blue-Tc (now)",
+  experience_section_bluetc_roll: "Consultant",
+  experience_section_bluetc_date: "Mar 2021 – now.",
+  experience_section_bluetc_projects_0_name: "Collaboration with Ericcson",
+  experience_section_bluetc_projects_0_resume:
+    "Continuous improvement and maintenance of an internal tool.",
+  experience_section_bluetc_skills_title:
+    "I work daily with the following technologies:",
+  experience_section_sngular_company_name: "Sngular",
   experience_section_sngular_roll: "FrontEnd developer",
-  experience_section_sngular_date: "Feb 2020 – now.",
+  experience_section_sngular_date: "Feb 2020 – Mar 2021.",
   experience_section_sngular_projects_0_name:
     "Internal Training/Project Sngular",
   experience_section_sngular_projects_0_resume:
@@ -23,7 +31,7 @@ export const en_translations = {
   experience_section_sngular_projects_1_resume:
     "This collaboration consists of the development and implementation of a new interface in the process of incorporation of each possible Cabify driver. <br /> Previously, Cabify used a tool called Fountain, this tool was replaced by a new application that is much more friendly, usable, intuitive and adaptable for each incorporation process of the different countries in which Cabify operates. <br /> <br /> The <b> Front part </b> of this project was made using the <u> Framework React.js </u> because it is a technology that Cabify works with regularly. Used in its latest version and making use of its latest updates, to manage the application state globally, <b> React.createContext </b> was used. In addition, error handling was controlled through an integration with the <u> Rollbar </u> tool that allows tracing all interactions and errors that occur in the application. In addition, this application needs to be connected to the following services: <u> Google Tag Manager </u> and <u> Amplitude </u> for continuous monitoring and the conversations that the different Cabify departments wanted to carry out about the application. <br /> <br /> The <b> Back part </b> of this application was made in <u> Node.js </u> together with <u> Express.js </u>. The main function of this BackEnd is to interact with the Fountain tool, which is what provides us with all the data that we need to collect from each user of the Application. Besides, with this new interface it is possible that the Fountain tool has only the storage function and not the interface that was not very friendly and usable for users.",
   experience_section_sngular_skills_title:
-    "I work daily with the following technologies:",
+    "I worked daily with the following technologies:",
   experience_section_digi_company_name: "Digi Mobil",
   experience_section_digi_roll: "Web Developer",
   experience_section_digi_date: "Jan 2019  – Jan 2020.",
