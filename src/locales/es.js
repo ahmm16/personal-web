@@ -13,13 +13,16 @@ export const es_translations = {
   experience_section_text_show_more: "mostrar más",
   experience_section_text_projects: "Proyectos",
 
-  experience_section_bluetc_company_name: "Blue-Tc (actualmente)",
+  experience_section_bluetc_company_name: "Laude (actualmente)",
   experience_section_bluetc_roll: "Consultor",
   experience_section_bluetc_date: "Mar 2021 – actualidad.",
-  experience_section_bluetc_projects_0_name: "Colaboración con Ericcson",
+  experience_section_bluetc_projects_0_name: "Policy Studio",
   experience_section_bluetc_projects_0_resume:
-    "Mejora continua y mantenimiento de una herramienta interna.",
-  experience_section_bluetc_skills_title:
+    "Liderazgo y coordinación en el diseño, desarrollo, mejora y mantenimiento de la aplicación web Policy Studio. Definición de la arquitectura técnica y estructuración de los componentes de la aplicación para garantizar su escalabilidad y eficiencia. Supervisión de equipos de desarrollo, asegurando el cumplimiento de plazos y calidad en las entregas.",
+experience_section_bluetc_projects_1_name: "Devportal IDP",
+  experience_section_bluetc_projects_1_resume:
+    "Responsable de la coordinación técnica y diseño de la arquitectura de la aplicación web Devportal IDP, construida utilizando el framework Backstage. Dirección técnica del equipo para implementar soluciones que mejoraran la experiencia de usuario y la integración con otros sistemas.",  
+experience_section_bluetc_skills_title:
     "Trabajo diariamente con las siguientes tecnologías:",
 
   experience_section_sngular_company_name: "Sngular",
