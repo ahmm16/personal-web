@@ -12,12 +12,15 @@ export const en_translations = {
   experience_section_text_title: "Job experience",
   experience_section_text_show_more: "show more",
   experience_section_text_projects: "Projects",
-  experience_section_bluetc_company_name: "Blue-Tc (now)",
+  experience_section_bluetc_company_name: "Laude (now)",
   experience_section_bluetc_roll: "Consultant",
   experience_section_bluetc_date: "Mar 2021 – now.",
-  experience_section_bluetc_projects_0_name: "Collaboration with Ericcson",
+  experience_section_bluetc_projects_0_name: "Policy Studio",
   experience_section_bluetc_projects_0_resume:
-    "Continuous improvement and maintenance of an internal tool.",
+    "Leadership and coordination in the design, development, improvement, and maintenance of the Policy Studio web application. Defining the technical architecture and structuring the application components to ensure scalability and efficiency. Supervising development teams, ensuring deadlines and quality in deliveries.",
+  experience_section_bluetc_projects_1_name: "Devportal IDP",
+  experience_section_bluetc_projects_1_resume:
+    "Responsible for the technical coordination and architectural design of the Devportal IDP web application, built using the Backstage framework. Technically led the team to implement solutions that improved the user experience and integration with other systems.",
   experience_section_bluetc_skills_title:
     "I work daily with the following technologies:",
   experience_section_sngular_company_name: "Sngular",
