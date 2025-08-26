@@ -19,10 +19,13 @@ export const es_translations = {
   experience_section_bluetc_projects_0_name: "Policy Studio",
   experience_section_bluetc_projects_0_resume:
     "Liderazgo y coordinación en el diseño, desarrollo, mejora y mantenimiento de la aplicación web Policy Studio. Definición de la arquitectura técnica y estructuración de los componentes de la aplicación para garantizar su escalabilidad y eficiencia. Supervisión de equipos de desarrollo, asegurando el cumplimiento de plazos y calidad en las entregas.",
-experience_section_bluetc_projects_1_name: "Devportal IDP",
+  experience_section_bluetc_projects_1_name: "Devportal IDP",
   experience_section_bluetc_projects_1_resume:
-    "Responsable de la coordinación técnica y diseño de la arquitectura de la aplicación web Devportal IDP, construida utilizando el framework Backstage. Dirección técnica del equipo para implementar soluciones que mejoraran la experiencia de usuario y la integración con otros sistemas.",  
-experience_section_bluetc_skills_title:
+    "Responsable de la coordinación técnica y diseño de la arquitectura de la aplicación web Devportal IDP, construida utilizando el framework Backstage. Dirección técnica del equipo para implementar soluciones que mejoraran la experiencia de usuario y la integración con otros sistemas.",
+  experience_section_bluetc_projects_2_name: "KLIA (proyecto interno)",
+  experience_section_bluetc_projects_2_resume:
+    "Como Arquitecto Frontend participé en el desarrollo de KLIA, una plataforma que actúa como un router inteligente para IA, capaz de dirigir cada consulta al modelo más adecuado, añadiendo capas de privacidad, seguridad y control empresarial que los servicios directos no ofrecen. Para su implementación, utilicé Angular en su última versión, aplicando las mejores prácticas y patrones de arquitectura actuales para garantizar un código escalable, mantenible y optimizado para alto rendimiento.",
+  experience_section_bluetc_skills_title:
     "Trabajo diariamente con las siguientes tecnologías:",
 
   experience_section_sngular_company_name: "Sngular",

@@ -144,19 +144,29 @@
     "experience": [
       {
         "companyName": "experience_section_bluetc_company_name",
-        "url": "https://www.bluetc.es/en/",
+        "url": "https://laude.tech/",
         "roll": "experience_section_bluetc_roll",
         "date": "experience_section_bluetc_date",
         "projects": [
           {
             "name": "experience_section_bluetc_projects_0_name",
             "resume": "experience_section_bluetc_projects_0_resume"
+          },
+          {
+            "name": "experience_section_bluetc_projects_1_name",
+            "resume": "experience_section_bluetc_projects_1_resume"
+          },
+          {
+            "name": "experience_section_bluetc_projects_2_name",
+            "resume": "experience_section_bluetc_projects_2_resume"
           }
         ],
         "skills": {
           "title": "experience_section_bluetc_skills_title",
           "bullets": [
             "JavaScript",
+            "TypeScript",
+            "Angular",
             "React",
             "Redux",
             "HTML5",

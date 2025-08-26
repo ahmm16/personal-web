@@ -21,6 +21,9 @@ export const en_translations = {
   experience_section_bluetc_projects_1_name: "Devportal IDP",
   experience_section_bluetc_projects_1_resume:
     "Responsible for the technical coordination and architectural design of the Devportal IDP web application, built using the Backstage framework. Technically led the team to implement solutions that improved the user experience and integration with other systems.",
+  experience_section_bluetc_projects_2_name: "KLIA (internal project)",
+  experience_section_bluetc_projects_2_resume:
+    "As a Frontend Architect, I contributed to the development of KLIA, a platform that functions as an intelligent AI router, capable of directing each query to the most suitable model while adding layers of privacy, security, and enterprise control that direct services do not provide. For its implementation, I used the latest version of Angular, applying current best practices and architectural patterns to ensure scalable, maintainable, and high‑performance code.",
   experience_section_bluetc_skills_title:
     "I work daily with the following technologies:",
   experience_section_sngular_company_name: "Sngular",
