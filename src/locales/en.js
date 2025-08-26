@@ -75,9 +75,9 @@ export const en_translations = {
   experience_section_tandem_projects_1_name:
     "Diseños de tarjetas de presentación, creación de logos y otros tipos de diseños",
   experience_section_tandem_projects_1_resume:
-    "La empresa tenía otra vertiente económica en la que se dedicaba de lleno a la creación de diferentes diseños que los clientes solicitaban.",
+    "The company had another economic branch dedicated entirely to creating different designs requested by clients.",
   experience_section_tandem_skills_title:
-    "Trabajé diariamente con las siguientes tecnologías:",
+    "I worked daily with the following technologies:",
   skills_section_text_title: "Technologies used monthly",
   skills_section_text_use_daily: "Daily use.",
   skills_section_text_little_monthly_use: "Little monthly use.",
